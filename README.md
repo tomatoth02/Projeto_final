@@ -1,5 +1,5 @@
 # Projeto_final
-uma loja de jogos (cadastro de jogos, clientes, vendas e produtos)
+Uma loja de jogos chamada Vortex (cadastro de jogos, clientes, vendas e produtos)
 
 ## Situação-problema
 
