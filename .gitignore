@@ -1,0 +1,34 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+.ipynb_checkpoints/
+
+### Java / Maven / Gradle (Se usar no IntelliJ) ###
+target/
+build/
+.gradle/
+local.properties
+.project
+.classpath
+.settings/
+
+### ArgoUML ###
+*.bak
+*.autosave
+*.log
+
+### pgAdmin / PostgreSQL ###
+*.sql.bak
+*.backup
+*.dump
+.pgpass
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
