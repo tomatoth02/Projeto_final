@@ -1,4 +1,4 @@
-# Projeto_final
+# VORTEX (Projeto Final)
 Uma loja de jogos chamada Vortex (cadastro de jogos, clientes, vendas e produtos)
 
 ## Situação-problema
