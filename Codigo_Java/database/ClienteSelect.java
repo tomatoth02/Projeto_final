@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClienteDAO {
+public class ClienteSelect {
 
     public static List<Cliente> listarClientes() {
         List<Cliente> clientes = new ArrayList<>();
