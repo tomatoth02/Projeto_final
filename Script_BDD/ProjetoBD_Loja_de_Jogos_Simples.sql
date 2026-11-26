@@ -92,8 +92,7 @@ SELECT produtos.nome, SUM(itens_venda.quantidade) AS unidades_vendidas
 FROM produtos
 INNER JOIN itens_venda
 ON produtos.id_produto = itens_venda.id_produto
-GROUP BY produtos.nome
-HAVING SUM(i+tens_venda.quantidade) > 1;
+GROUP BY produtos.nome;
 
 SELECT nome, preco
 FROM produtos
