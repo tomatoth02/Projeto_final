@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="Logo_Vortex.png" width="84" alt="VORTEX logo" />
+
 # VORTEX (Projeto Final)
 Uma loja de jogos chamada Vortex (cadastro de jogos, clientes, vendas e produtos)
 
