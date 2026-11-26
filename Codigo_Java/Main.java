@@ -1,5 +1,5 @@
 
-import database.ClienteDAO;
+import database.ClienteSelect;
 import model.Cliente;
 
 import java.util.List;
@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void listarClientes() {
-        List<Cliente> clientes = ClienteDAO.listarClientes();
+        List<Cliente> clientes = ClienteSelect.listarClientes();
 
         for (Cliente cliente : clientes) {
             System.out.println("ID: " + cliente.getIdCliente());
@@ -23,7 +23,7 @@ public class Main {
     }
 
     public static void buscarClientesPorID(int id) {
-        Cliente cliente = ClienteDAO.buscarPorId(id);
+        Cliente cliente = ClienteSelect.buscarPorId(id);
 
         if (cliente != null) {
 
