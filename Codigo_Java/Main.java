@@ -32,7 +32,7 @@ public class Main {
             System.out.println("Telefone: " + cliente.getTelefone());
 
         } else {
-            System.out.println("Cliente não encontrado!");
+            System.err.println("Cliente não encontrado!");
         }
     }
 }
